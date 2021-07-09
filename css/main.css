@@ -38,3 +38,75 @@ header nav.header-nav .header-nav-link a {
 header nav.header-nav .header-nav-link a:hover {
     color: #0051FF;
 }
+
+/*--------------- Main css ---------------*/
+main{
+}
+main section{
+    position: relative;
+}
+main section.main-pay-texts .text-pay {
+    font-family: Montserrat;
+    font-weight:900;
+    font-size: 8.8rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: #EBF0F5;
+    opacity: 0.24;
+    display: flex;
+}
+main section.main-pay-texts .text-pay-portal {
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #0051FF;
+    line-height : 30px;
+    margin: auto;
+    text-align: center;
+}
+main section.main-pay-texts .text-pay-info {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777777;
+}
+
+main .main-pay-texts .text-pay-portal {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+main .main-pay-form {
+    margin: 20px 30px 25px 45px;
+    font-family: "Open Sans";
+    font-size: 1.6rem;
+    color: #777777;
+}
+main .main-pay-form input, main .main-pay-form label{
+    box-sizing: border-box;
+    width: 100%;
+}
+main .main-pay-form label {
+    padding: 5px 0;
+}
+main .main-pay-form button{
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 1.7rem;
+    background-color: #0051FF;
+    border-color: #0051FF;
+    color: #FFFFFF;
+}
