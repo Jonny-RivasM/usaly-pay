@@ -1,0 +1,40 @@
+html {
+    font-family: "Open Sans";
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    background-color: #CCD8E7;
+}
+
+
+/*--------------- header css ---------------*/
+header nav.header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FFFFFF;
+    height: 127px;
+}
+header nav.header-nav .header-nav-logo{
+    margin: auto;
+    text-align: center;
+}
+header nav.header-nav .header-nav-text-link{
+    margin: auto;
+}
+header nav.header-nav .header-nav-link  {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    text-align: center;
+}
+header nav.header-nav .header-nav-link .link-home {
+    padding-right: 20px;
+}
+header nav.header-nav .header-nav-link a {
+    color: #333333;
+    text-decoration: none;
+}
+header nav.header-nav .header-nav-link a:hover {
+    color: #0051FF;
+}
