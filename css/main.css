@@ -94,6 +94,10 @@ main .main-pay-form input, main .main-pay-form label{
     box-sizing: border-box;
     width: 100%;
 }
+main .main-pay-form input {
+    background-color: #CCD8E7;
+    border: 1px solid #B3B5B7;
+}
 main .main-pay-form label {
     padding: 5px 0;
 }
@@ -109,4 +113,67 @@ main .main-pay-form button{
     background-color: #0051FF;
     border-color: #0051FF;
     color: #FFFFFF;
+}
+
+/*--------------- Footer ---------------*/
+footer{
+    background-color:#333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #CCCCCC;
+}
+footer .footer-container .footer-logo img{
+    margin: 40px 0 30px;
+}
+footer .footer-container .footer-logo .footer-logo-contact{
+    margin: 5px auto 20px;
+}
+footer .footer-container .footer-logo .footer-logo-contact p{
+    line-height : 10px;
+}
+footer .footer-container .footer-logo .footer-politics a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+footer .footer-container .footer-logo .footer-politics a:hover{
+    color: #0051FF;
+
+}
+footer .footer-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+}
+footer .footer-container section{
+    margin: 0 20px 20px;
+}
+footer .footer-rights {
+    margin: 20px 0 10px;
+    font-size: 1.3rem;
+}
+
+
+/*--------------- Medias ---------------*/
+@media (min-width: 600px) {
+    main {
+        width: 760px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .main-pay-form form label {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main .main-pay-form form label span{
+        width: 400px;
+    }
 }
