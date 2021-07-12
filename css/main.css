@@ -144,6 +144,7 @@ footer .footer-container .footer-logo .footer-politics a:hover{
 }
 footer .footer-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -159,9 +160,11 @@ footer .footer-rights {
 
 
 /*--------------- Medias ---------------*/
-@media (min-width: 600px) {
+
+@media (min-width: 620px) {
     main {
-        width: 760px;
+        min-width: 550px;
+        max-width: 760px;
         display: flex;
         margin: 0 auto;
         flex-direction: column;
@@ -175,5 +178,14 @@ footer .footer-rights {
 
     main .main-pay-form form label span{
         width: 400px;
+    }
+
+    /** footer **/
+    footer .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 }
